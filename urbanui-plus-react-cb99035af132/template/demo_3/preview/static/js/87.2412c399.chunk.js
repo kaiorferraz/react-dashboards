@@ -1,0 +1,2 @@
+(window["webpackJsonpplus-react-pro"]=window["webpackJsonpplus-react-pro"]||[]).push([[87],{1205:function(n,e,t){"use strict";t.r(e),t.d(e,"BlankPage",(function(){return i}));var r=t(13),a=t(14),u=t(16),c=t(15),o=t(0),p=t.n(o),i=function(n){Object(u.a)(t,n);var e=Object(c.a)(t);function t(){return Object(r.a)(this,t),e.apply(this,arguments)}return Object(a.a)(t,[{key:"render",value:function(){return p.a.createElement("div",null)}}]),t}(o.Component);e.default=i}}]);
+//# sourceMappingURL=87.2412c399.chunk.js.map

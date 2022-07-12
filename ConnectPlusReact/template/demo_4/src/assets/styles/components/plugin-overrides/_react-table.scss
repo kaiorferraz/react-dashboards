@@ -1,0 +1,44 @@
+
+.ReactTable {
+  .rt-thead {
+    .rt-th {
+      padding: 1rem;
+      text-align: left;
+      font-weight: bold;
+    }
+    &.-header {
+      box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0);
+      border-bottom: 1px solid $border-color;
+      background: $content-bg;
+    }
+    &.-filters {
+      input {
+        background: $dark;
+      }
+    }
+  }
+  .rt-td {
+    padding: 1rem;
+  }
+  .form-check {
+    margin: 0;
+  }
+  .-pagination {
+    .-next {
+      .-btn {
+        color: $body-color;
+        background: $dark;
+      }
+    }
+    .-previous {
+      .-btn {
+        color: $body-color;
+        background: $dark;
+      }
+    }
+    select,
+    input {
+      background: $dark;
+    }
+  }
+}

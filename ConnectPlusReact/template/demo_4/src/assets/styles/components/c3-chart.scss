@@ -1,0 +1,15 @@
+.c3-axis-x > .tick {
+    fill:#9fabb1;                 // remove axis labels from x-axis
+  }
+  .c3-axis-y > .tick {
+    fill: #9fabb1;                // removes axis labels from y axis
+  }
+  .c3-legend-item {
+    fill: #9fabb1;
+  }
+  .c3 .c3-axis-x path, .c3 .c3-axis-x line {
+    stroke: #9fabb1;
+  }
+  .c3 .c3-axis-y path, .c3 .c3-axis-y line  {
+    stroke: #9fabb1;
+  }

@@ -1,0 +1,62 @@
+.react-daterange-picker {
+    @extend .form-control;
+    width: auto;
+    padding: 0;
+    max-width: 100%;
+
+    .react-daterange-picker__wrapper {
+        border: none;
+        align-items: center;
+        padding-left: 10px;
+        overflow: hidden;
+
+        &::before {
+            content: "\e075";
+            font-family: 'simple-line-icons';
+        }
+
+        .react-daterange-picker__inputGroup {
+            .react-daterange-picker__inputGroup_input {
+                font-size: 12px;
+
+                @media (max-width: 767px) {
+                    pointer-events: none;
+                }
+            }
+            .react-daterange-picker__inputGroup__month {
+                width: 70px;
+                appearance: none;
+                &::-ms-expand {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .react-daterange-picker__calendar {
+        .react-calendar {
+            border: 1px solid $border-color;
+            font-family: $type1;
+            border-radius: 0.15rem;
+
+            .react-calendar__month-view__weekdays {
+                border-bottom: 1px solid $border-color;
+
+                .react-calendar__month-view__weekdays__weekday {
+                    abbr[title] {
+                        text-decoration: none;
+                        font-weight: $font-weight-medium;
+                        color: #a7afb7;
+                    }
+                }
+            }
+
+            .react-calendar__month-view__days {
+                .react-calendar__month-view__days__day,
+                .react-calendar__month-view__days__day--weekend {
+                    color: #212529;
+                }
+            }
+        }
+    }
+}

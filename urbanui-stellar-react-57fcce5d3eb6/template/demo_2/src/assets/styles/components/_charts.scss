@@ -1,0 +1,27 @@
+.c3 .c3-axis-x path,
+.c3 .c3-axis-x line {
+    stroke: #9fabb1;
+    
+}
+.c3 .c3-axis-y path, 
+.c3 .c3-axis-y line {
+    stroke: #9fabb1;
+}
+.tick text { 
+    stroke: #9fabb1; 
+}
+.c3-legend-item text { 
+    stroke: #9fabb1; 
+}
+.ct-chart {
+  .ct-grids {
+    line {
+      // stroke: $text-gray;
+      }
+  }
+  .ct-labels {
+    span {
+      color: $text-gray;
+    }
+  }
+}
